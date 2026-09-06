@@ -54,4 +54,4 @@ An exponential smoothing filter (λ = 0.3) is applied to avoid abrupt torque cha
 Python, scikit-learn, XGBoost, pandas, NumPy, Matplotlib, Google Colab
 
 ## Author
-Rafia — Electronics Engineering, Mehran University of Engineering & Technology (MUET)
+Rafia Burdi Baloch - Electronics Engineering - Mehran University of Engineering & Technology (MUET)
