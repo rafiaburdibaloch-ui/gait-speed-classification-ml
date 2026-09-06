@@ -6,7 +6,8 @@ Machine learning pipeline that classifies walking speed (Slow/Normal/Fast) from 
 For an exoskeleton to assist naturally, it must detect how fast the wearer is walking and scale its assistance accordingly. This project benchmarks 10 ML classifiers to find the best model for that detection step, then feeds the prediction into a torque controller.
 
 ## Dataset
-Dataset: gait.csv (included in this repo), based on a publicly available multivariate gait dataset. Source link and full attribution to be added — pending confirmation of the exact original source and license terms.181,800 rows of joint angle time-series data from 10 subjects walking at Slow, Normal, and Fast speeds, covering Hip, Knee, and Ankle joints on both legs.
+`gait.csv`, sourced from the [Multivariate Gait Data](https://archive.ics.uci.edu/dataset/760/multivariate+gait+data) dataset, UCI Machine Learning Repository (Helwig & Hsiao-Wecksler, 2016), licensed under CC BY 4.0.
+181,800 rows of joint angle time-series data from 10 subjects walking at Slow, Normal, and Fast speeds, covering Hip, Knee, and Ankle joints on both legs.
 
 Feature-engineered into 600 trial-level samples with 33 statistical features per trial (mean, std, min, max, range, skewness, kurtosis, zero-crossings, etc.)
 
